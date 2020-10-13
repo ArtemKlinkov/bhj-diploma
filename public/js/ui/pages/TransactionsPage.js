@@ -50,7 +50,7 @@ class TransactionsPage {
       }
 
       if (removeTransactionBtn) {
-        transactionsPage.removeTransaction(removeTransactionButton.dataset.id);
+        transactionsPage.removeTransaction(removeTransactionBtn.dataset.id);
       }
     });
 
